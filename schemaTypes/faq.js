@@ -17,12 +17,6 @@ export default {
         {
           type: 'block',
         },
-        {
-          type: 'list',
-          name: 'bulletList',
-          title: 'Bulleted List',
-          of: [{ type: 'string' }],
-        },
       ],
       validation: Rule => Rule.required(),
     },
